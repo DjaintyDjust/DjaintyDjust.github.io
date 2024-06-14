@@ -16,6 +16,4 @@ console.log(path)
 console.log(redirects[path])
 if (redirects[path]) {
     window.location.href = redirects[path];
-} else if (path !== "/" && path !== "index.html" && path !== "snake.html") {
-    window.location.href = '404.html';
 }
